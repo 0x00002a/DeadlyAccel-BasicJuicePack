@@ -23,8 +23,15 @@ namespace Natomic.DeadlyAccelJuice {
                 SubtypeId = "NI_DAJ_JuiceLvl_1_Bottle",
                 ConsumptionRate = 0.01f,
 				ToxicityPerMitagated = 2f,
-				ToxicityDecay = 0.1f,	
+				ToxicityDecay = 0.01f,	
 				Ranking = 10,
+            });
+			api.RegisterJuiceDefinition(new JuiceDefinition(){
+                SubtypeId = "NI_DAJ_JuiceLvl_2_Bottle",
+                ConsumptionRate = 0.01f,
+				ToxicityPerMitagated = 1f,
+				ToxicityDecay = 0.1f,	
+				Ranking = 9,
             });
             
         }

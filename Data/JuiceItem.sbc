@@ -7,15 +7,15 @@
                 <SubtypeId>NI_DAJ_JuiceLvl_1_Bottle</SubtypeId>
             </Id>
             <DisplayName>Shit Juice</DisplayName>
-            <Icon>Textures\GUI\Icons\component\HydrogenBottle_Component.dds</Icon>
-			<Model>Models\CanisterBase.mwm</Model>
+            <Icon>Textures\Icons\t1_juice.dds</Icon>
+			<Model>Models\ShitJuiceCanister.mwm</Model>
             <Size>
                 <X>0.8</X>
                 <Y>0.24</Y>
                 <Z>0.08</Z>
             </Size>
             <Mass>30</Mass>
-            <Volume>120</Volume>   
+            <Volume>300</Volume>   
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <MinimumOfferAmount>5</MinimumOfferAmount>
             <MaximumOfferAmount>10</MaximumOfferAmount>
@@ -23,6 +23,30 @@
             <MaximumOrderAmount>50</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
 
+            <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+        </PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>NI_DAJ_JuiceLvl_2_Bottle</SubtypeId>
+            </Id>
+            <DisplayName>Decent Juice</DisplayName>
+            <Icon>Textures\Icons\t2_juice.dds</Icon>
+			<Model>Models\DecentJuiceCanister.mwm</Model>
+            <Size>
+                <X>0.8</X>
+                <Y>0.24</Y>
+                <Z>0.08</Z>
+            </Size>
+            <Mass>30</Mass>
+            <Volume>300</Volume>   
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MinimumOfferAmount>5</MinimumOfferAmount>
+            <MaximumOfferAmount>10</MaximumOfferAmount>
+            <MinimumOrderAmount>20</MinimumOrderAmount>
+            <MaximumOrderAmount>50</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
             <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
         </PhysicalItem>

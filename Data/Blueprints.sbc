@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Blueprints>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NI_DAJ_ShitJuiceBP</SubtypeId>
+      </Id>
+      <DisplayName>Shit Juice</DisplayName>
+      <Icon>Textures\Icons\t1_juice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Stone" /> <!-- Carbon -->
+		<Item Amount="1000" TypeId="Ore" SubtypeId="Ice" /> <!-- Hydrogen + Oxygen -->
+		<Item Amount="400" TypeId="Ingot" SubtypeId="Iron" /> <!-- Fe -->
+      </Prerequisites>
+      <Results>
+        <Item Amount="1.0" TypeId="Component" SubtypeId="NI_DAJ_JuiceLvl_1_Bottle" />
+      </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NI_DAJ_DecentJuiceBP</SubtypeId>
+      </Id>
+      <DisplayName>Decent Juice</DisplayName>
+      <Icon>Textures\Icons\t2_juice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5000" TypeId="Ingot" SubtypeId="Stone" /> <!-- Carbon -->
+		<Item Amount="1200" TypeId="Ore" SubtypeId="Ice" /> <!-- Hydrogen + Oxygen -->
+		<Item Amount="900" TypeId="Ingot" SubtypeId="Iron" /> <!-- Fe -->
+		<Item Amount="20" TypeId="Ingot" SubtypeId="Gold" /> 
+      </Prerequisites>
+      <Results>
+        <Item Amount="1.0" TypeId="Component" SubtypeId="NI_DAJ_JuiceLvl_1_Bottle" />
+      </Results>
+      <BaseProductionTimeInSeconds>90</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+</Blueprints>
+<BlueprintClassEntries>
+	<Entry Class="EliteConsumables" BlueprintSubtypeId="NI_DAJ_DecentJuiceBP" /> <!-- Non-basic assembler only -->
+	
+	<Entry Class="Consumables" BlueprintSubtypeId="NI_DAJ_ShitJuice" />
+</BlueprintClassEntries>
+
+</Definitions>
