@@ -32,7 +32,7 @@ This mod is GPLv3. That means you can reupload it or any mod that contains it _a
 
 (ok that last one isn't actually legally binding)
 
-If in doubt, ask me in comments or the Keen discord (@Natomic). 
+If in doubt, ask me in comments or the Keen discord (\@Natomic). 
 Full license is avaliable [here](https://github.com/0x00002a/DeadlyAccel-BasicJuicePack/blob/28aa6647e8e038b7953ef5220fd6ab8aaa249126/LICENSE). I reserve the right to ask 
 for your mod to be yeeted if you have reused my mod without obeying the license.
 
