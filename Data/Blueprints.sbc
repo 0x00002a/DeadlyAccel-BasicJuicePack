@@ -29,7 +29,7 @@
         <Item Amount="5000" TypeId="Ingot" SubtypeId="Stone" /> <!-- Carbon -->
 		<Item Amount="1200" TypeId="Ore" SubtypeId="Ice" /> <!-- Hydrogen + Oxygen -->
 		<Item Amount="900" TypeId="Ingot" SubtypeId="Iron" /> <!-- Fe -->
-		<Item Amount="20" TypeId="Ingot" SubtypeId="Gold" /> 
+		<Item Amount="5" TypeId="Ingot" SubtypeId="Gold" /> 
       </Prerequisites>
       <Results>
         <Item Amount="1.0" TypeId="Component" SubtypeId="NI_DAJ_JuiceLvl_1_Bottle" />
@@ -40,8 +40,10 @@
 </Blueprints>
 <BlueprintClassEntries>
 	<Entry Class="EliteConsumables" BlueprintSubtypeId="NI_DAJ_DecentJuiceBP" /> <!-- Non-basic assembler only -->
+	<Entry Class="EliteConsumables" BlueprintSubtypeId="NI_DAJ_ShitJuiceBP" /> <!-- Non-basic assembler only -->
 	
-	<Entry Class="Consumables" BlueprintSubtypeId="NI_DAJ_ShitJuice" />
+	<Entry Class="Consumables" BlueprintSubtypeId="NI_DAJ_ShitJuiceBP" /> <!-- Basic assembler only -->
+	
 </BlueprintClassEntries>
 
 </Definitions>

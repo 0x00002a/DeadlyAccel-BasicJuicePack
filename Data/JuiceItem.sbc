@@ -6,13 +6,13 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>NI_DAJ_JuiceLvl_1_Bottle</SubtypeId>
             </Id>
-            <DisplayName>Shit Juice</DisplayName>
+            <DisplayName>Crappy Juice</DisplayName> <!-- Shit Juice sounds a bit naff tbh -->
             <Icon>Textures\Icons\t1_juice.dds</Icon>
 			<Model>Models\ShitJuiceCanister.mwm</Model>
             <Size>
-                <X>0.8</X>
+                <X>0.24</X>
                 <Y>0.24</Y>
-                <Z>0.08</Z>
+                <Z>0.24</Z>
             </Size>
             <Mass>30</Mass>
             <Volume>300</Volume>   
@@ -35,9 +35,9 @@
             <Icon>Textures\Icons\t2_juice.dds</Icon>
 			<Model>Models\DecentJuiceCanister.mwm</Model>
             <Size>
-                <X>0.8</X>
+                <X>0.24</X>
                 <Y>0.24</Y>
-                <Z>0.08</Z>
+                <Z>0.24</Z>
             </Size>
             <Mass>30</Mass>
             <Volume>300</Volume>   
